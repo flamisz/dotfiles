@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Cascadia Code PL",
+    "editor.tabSize": 2,
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "files.autoSave": "onFocusChange",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.showTabs": true,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "cSpell.userWords": [
+        "Flamis",
+        "Zoltan",
+        "esversion",
+        "expressjs",
+        "flamisz",
+        "gmail",
+        "mithril",
+        "netlify",
+        "oninit",
+        "osascript",
+        "promisify",
+        "resave",
+        "tailwindcss",
+        "tweetbucket",
+        "vnode"
+    ],
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "all",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "solid",
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.colorCustomizations": {
+        "gitDecoration.ignoredResourceForeground": "#808080"
+    },
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
