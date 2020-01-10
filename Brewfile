@@ -61,6 +61,7 @@ cask 'there'
 cask 'the-unarchiver'
 cask 'sequel-pro'
 cask 'visual-studio-code'
+cask 'iterm2'
 
 # Quicklook
 cask 'qlcolorcode'
