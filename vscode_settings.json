@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Cascadia Code PL",
+    "editor.fontFamily": "Cascadia Mono PL",
     "editor.tabSize": 2,
     "editor.lineHeight": 24,
     "editor.letterSpacing": 0.5,
@@ -34,15 +33,8 @@
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 5,
     "editor.cursorBlinking": "solid",
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
     "workbench.colorCustomizations": {
         "gitDecoration.ignoredResourceForeground": "#808080"
     },
-    "typescript.validate.enable": false,
-    "javascript.validate.enable": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+    "workbench.colorTheme": "Cobalt2"
 }
