@@ -16,7 +16,7 @@ brew bundle
 
 # Better do it by hand, it can have some errors
 # Set default MySQL root password and auth type.
-# mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH caching_sha2_password BY 'password'; FLUSH PRIVILEGES;"
+# mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Better do it by hand, it can have some errors
 # brew install libmemcached ?maybe

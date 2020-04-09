@@ -4,6 +4,7 @@ tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'heroku/brew'
 
 # Binaries
 brew 'awscli'
@@ -40,6 +41,8 @@ brew 'node'
 brew 'redis'
 brew 'yarn'
 brew 'sqlite'
+brew 'heroku'
+brew 'postgresql'
 
 # Apps
 cask '1password'
@@ -62,6 +65,7 @@ cask 'the-unarchiver'
 cask 'sequel-pro'
 cask 'visual-studio-code'
 cask 'iterm2'
+cask 'figma'
 
 # Quicklook
 cask 'qlcolorcode'

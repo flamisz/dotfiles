@@ -12,8 +12,7 @@ alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugi
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
-alias lara="sites && cd laravel/"
+alias sites="cd $HOME/dev/sites"
 
 # Laravel
 alias art="php artisan"
