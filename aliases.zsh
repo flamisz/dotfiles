@@ -18,6 +18,8 @@ alias sites="cd $HOME/dev/sites"
 # Laravel
 alias art="php artisan"
 alias ams="php artisan migrate:fresh --seed"
+alias at="php artisan test"
+alias atf="php artisan test --filter"
 
 # PHP
 alias php73="/usr/local/Cellar/php@7.3/7.3.12/bin/php"
