@@ -65,7 +65,7 @@ cask 'the-unarchiver'
 cask 'sequel-pro'
 cask 'visual-studio-code'
 cask 'iterm2'
-cask 'figma'
+# cask 'figma'
 
 # Quicklook
 cask 'qlcolorcode'
