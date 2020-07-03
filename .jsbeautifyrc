@@ -2,7 +2,7 @@
     "indent_size": 4,
     "indent_char": " ",
     "js": {
-      "indent_size": 2
+      "indent_size": 4
     },
     "newline_between_rules": false,
     "selector_separator_newline": false,
