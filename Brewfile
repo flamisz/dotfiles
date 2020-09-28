@@ -77,6 +77,7 @@ cask 'qlstephen'
 
 # Fonts
 cask 'font-cascadia-mono-pl'
+cask 'font-ibm-plex-mono'
 
 # Mac App Store
 mas 'Bear', id: 1091189122
@@ -84,3 +85,4 @@ mas 'Pages', id: 409201541
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'iMovie', id: 408981434
+mas 'Things', id: 904280696
