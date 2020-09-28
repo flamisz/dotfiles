@@ -43,6 +43,7 @@ brew 'yarn'
 brew 'sqlite'
 brew 'heroku'
 brew 'postgresql'
+brew 'gh'
 
 # Apps
 cask '1password'
