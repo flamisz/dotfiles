@@ -44,6 +44,7 @@ brew 'sqlite'
 brew 'heroku'
 brew 'postgresql'
 brew 'gh'
+brew 'stripe/stripe-cli/stripe'
 
 # Apps
 cask '1password'
