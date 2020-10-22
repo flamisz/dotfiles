@@ -37,3 +37,6 @@ mkdir $HOME/dev/sites
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # ln -s $HOME/.dotfiles/.jsbeautifyrc $HOME/.jsbeautifyrc
+
+# Add global gitignore
+git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
