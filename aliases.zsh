@@ -1,5 +1,5 @@
 # Shortcuts
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
