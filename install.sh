@@ -4,7 +4,7 @@ echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 # Update Homebrew recipes
@@ -25,7 +25,7 @@ brew bundle
 #pecl install pcov
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
@@ -38,3 +38,6 @@ mkdir $HOME/dev/sites
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # ln -s $HOME/.dotfiles/.jsbeautifyrc $HOME/.jsbeautifyrc
+
+# Add global gitignore
+git config --global core.excludesfile $HOME/.dotfiles/.gitignore_global
