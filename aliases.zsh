@@ -44,3 +44,6 @@ alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
 alias up="git pull --rebase"
+
+# Matomo
+alias con="./console"

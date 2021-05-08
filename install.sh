@@ -22,6 +22,7 @@ brew bundle
 # brew install libmemcached ?maybe
 # Install PHP extensions with PECL
 #pecl install memcached imagick
+#pecl install pcov
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet
