@@ -1,0 +1,5 @@
+AdvancedNewFile
+LSP
+LSP-intelephense
+Package Control
+Vue Syntax Highlight
