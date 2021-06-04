@@ -13,6 +13,9 @@
     "hot_exit": "disabled",
     "close_windows_when_empty": false,
     "translate_tabs_to_spaces": true,
+    "scroll_past_end": true,
+    "show_full_path": true,
+    "show_rel_path": true,
     "ignored_packages":
     [
         "Vintage",

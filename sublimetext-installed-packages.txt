@@ -2,4 +2,5 @@ AdvancedNewFile
 LSP
 LSP-intelephense
 Package Control
+PHP Companion
 Vue Syntax Highlight
