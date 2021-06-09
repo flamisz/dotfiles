@@ -9,6 +9,7 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # homebrew
 export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
