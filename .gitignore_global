@@ -38,3 +38,4 @@ Thumbs.db
 .idea/
 .vscode
 .vagrant/
+.php-cs-fixer.cache
