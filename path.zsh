@@ -15,6 +15,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
 
 
 # Make sure coreutils are loaded before system commands
