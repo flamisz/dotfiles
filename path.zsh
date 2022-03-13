@@ -11,6 +11,9 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+# ruby
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
