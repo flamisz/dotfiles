@@ -12,7 +12,10 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # ruby
-export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+
 
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
