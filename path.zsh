@@ -10,6 +10,7 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # homebrew
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 # ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
