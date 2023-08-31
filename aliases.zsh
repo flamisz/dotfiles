@@ -23,7 +23,6 @@ alias atf="php artisan test --filter"
 alias atp="php artisan test --parallel"
 
 # PHP
-alias php73="/usr/local/Cellar/php@7.3/7.3.12/bin/php"
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
 
 # Git
@@ -45,6 +44,3 @@ alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
 alias up="git pull --rebase"
-
-# Matomo
-alias con="./console"
