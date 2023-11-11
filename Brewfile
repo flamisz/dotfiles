@@ -60,3 +60,4 @@ cask 'iterm2'
 # Fonts
 cask 'font-cascadia-mono-pl'
 cask 'font-ibm-plex-mono'
+cask 'font-monaspace'
