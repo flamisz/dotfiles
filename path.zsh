@@ -19,6 +19,9 @@ export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
 
 
+# Herd injected PHP binary.
+export PATH="$HOME/Application Support/Herd/bin/":$PATH
+
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
