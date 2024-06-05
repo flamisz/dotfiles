@@ -10,11 +10,11 @@ alias c="clear"
 alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
 alias jigsaw="./vendor/bin/jigsaw"
 
-pdftotext() {
+pdftotextz() {
     local file_path="$1"
     pdftotext "$file_path" -f 1 -l 1 - | pbcopy
 }
-alias pdftt='pdftotext'
+alias pdftt='pdftotextz'
 
 
 # Directories
