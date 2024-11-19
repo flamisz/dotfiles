@@ -39,3 +39,7 @@ Thumbs.db
 .vscode
 .vagrant/
 .php-cs-fixer.cache
+
+# Other #
+######################
+.npmrc
