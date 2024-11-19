@@ -1,7 +1,0 @@
-AdvancedNewFile
-LSP
-LSP-intelephense
-Material Theme
-Package Control
-PHP Companion
-Vue Syntax Highlight

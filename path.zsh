@@ -1,28 +1,19 @@
-# Load Composer tools
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+# Add directories to the PATH and prevent to add the same directory multiple times upon shell reload.
+add_to_path() {
+  if [[ -d "$1" ]] && [[ ":$PATH:" != *":$1:"* ]]; then
+    export PATH="$1:$PATH"
+  fi
+}
 
-# Load Node global installed binaries
-export PATH="$HOME/.node/bin:$PATH"
+# Load dotfiles binaries
+add_to_path "$DOTFILES/bin"
+
+# Load global Composer tools
+add_to_path "$HOME/.composer/vendor/bin"
+
+# Load global Node installed binaries
+add_to_path "$HOME/.node/bin"
 
 # Use project specific binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
-
-# homebrew
-export PATH="/opt/homebrew/sbin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-
-# ruby
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
-
-
-# Herd injected PHP binary.
-export PATH="$HOME/Application Support/Herd/bin/":$PATH
-
-# Make sure coreutils are loaded before system commands
-# I've disabled this for now because I only use "ls" which is
-# referenced in my aliases.zsh file directly.
-#export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+add_to_path "vendor/bin"
+add_to_path "node_modules/.bin"

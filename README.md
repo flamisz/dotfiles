@@ -19,16 +19,32 @@ After going to our checklist above and making sure you backed everything up, we'
 
 ### Setting up your Mac
 
-If you did all of the above you may now follow these install instructions to setup a new Mac.
+After backing up your old Mac you may now follow these install instructions to setup a new one.
 
-1. Update macOS to the latest version: System Preferences/Software Update 
-2. Install Xcode from the App Store, open it and accept the license agreement
-3. Install macOS Command Line Tools by running `xcode-select --install`
-4. Copy your public and private SSH keys to `~/.ssh` and make sure they're set to `600`
-5. Clone this repo to `~/.dotfiles`
-6. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started)
-7. Run `install.sh` to start the installation
-8. Restart your computer to finalize the process
+1. Update macOS to the latest version through system preferences
+2. Setup an SSH key by using one of the two following methods
+   2.1. If you use 1Password, install it with the 1Password [SSH agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent) and sync your SSH keys locally.
+   2.2. Otherwise [generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running:
+
+   ```zsh
+   curl https://raw.githubusercontent.com/flamisz/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
+   ```
+
+3. Clone this repo to `~/.dotfiles` with:
+
+    ```zsh
+    git clone --recursive git@github.com:flamisz/dotfiles.git ~/.dotfiles
+    ```
+
+4. Run the installation with:
+
+    ```zsh
+    cd ~/.dotfiles && ./fresh.sh
+    ```
+
+5. Start `Herd.app` and run its install process
+6. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+7. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
 
