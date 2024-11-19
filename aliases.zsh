@@ -9,13 +9,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias zbundle="antibody bundle < $DOTFILES/zsh_plugins.txt > $DOTFILES/zsh_plugins.sh"
 alias jigsaw="./vendor/bin/jigsaw"
-
-pdftotext() {
-    local file_path="$1"
-    pdftotext "$file_path" -f 1 -l 1 - | pbcopy
-}
-alias pdftt='pdftotext'
-
+pdftt() { pdftotext $1 -f 1 -l 1 - | pbcopy }
 
 # Directories
 alias dotfiles="cd $DOTFILES"
