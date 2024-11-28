@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
