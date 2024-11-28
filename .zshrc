@@ -123,10 +123,11 @@ export HERD_PHP_83_INI_SCAN_DIR="$HOME/Library/Application Support/Herd/config/p
 export PATH="$HOME/Library/Application Support/Herd/bin/:$PATH"
 
 
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/.node/bin:$PATH"
 export PATH="vendor/bin:$PATH"
 export PATH="node_modules/.bin:$PATH"
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
-
 
 # Herd injected NVM configuration
 export NVM_DIR="$HOME/Library/Application Support/Herd/config/nvm"
