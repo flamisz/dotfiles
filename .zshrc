@@ -124,6 +124,7 @@ export PATH="$HOME/Library/Application Support/Herd/bin/:$PATH"
 
 
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="$HOME/.node/bin:$PATH"
 export PATH="vendor/bin:$PATH"
