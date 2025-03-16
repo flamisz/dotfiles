@@ -13,6 +13,9 @@ export PATH=/opt/homebrew/bin:$PATH
 # Enable completions
 autoload -Uz compinit && compinit
 
+# ruby stuff
+eval "$(~/.local/bin/mise activate)"
+
 # Minimal - Theme Settings
 # export MNML_INSERT_CHAR="$"
 # export MNML_PROMPT=(mnml_git mnml_keymap)
