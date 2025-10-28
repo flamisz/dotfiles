@@ -147,3 +147,12 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/zoltan/Library/Application Support/Herd/
 
 # Herd injected PHP 8.2 configuration.
 export HERD_PHP_82_INI_SCAN_DIR="/Users/zoltan/Library/Application Support/Herd/config/php/82/"
+
+# pnpm
+export PNPM_HOME="/Users/zoltan/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+source "$HOME/.tixel/.tixelrc"
