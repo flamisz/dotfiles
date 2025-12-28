@@ -156,3 +156,14 @@ case ":$PATH:" in
 esac
 # pnpm end
 source "$HOME/.tixel/.tixelrc"
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/zoltan/Library/Application Support/Herd/config/php/84/"
+
+# bun completions
+[ -s "/Users/zoltan/.bun/_bun" ] && source "/Users/zoltan/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
